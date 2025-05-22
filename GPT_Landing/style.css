@@ -1,0 +1,306 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #212a33;
+    color: #e0e6ed;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: #83b0f7;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #ffbe76;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Navbar */
+.navbar {
+    background: #212a33;
+    padding: 16px 0;
+    border-bottom: 1px solid #293241;
+    margin-bottom: 20px;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 48px;
+    height: auto;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.navbar nav ul li {
+    font-size: 1rem;
+}
+
+.nav-buttons .btn {
+    margin-left: 10px;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hero-logo {
+    width: 90px;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #adb4c2;
+    margin-bottom: 12px;
+}
+
+.description {
+    color: #bfc8da;
+    margin-bottom: 18px;
+}
+
+.hero-buttons .btn {
+    margin: 6px 8px;
+}
+
+/* Boutons */
+.btn {
+    background: #3a71d1;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 28px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.15s;
+    display: inline-block;
+}
+
+.btn:hover {
+    background: #225aa3;
+}
+
+.btn-secondary {
+    background: #232f42;
+}
+
+.btn-discount {
+    background: #8545a6;
+}
+
+.btn-discount:hover {
+    background: #5d2f75;
+}
+
+/* Sections titles */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffe48a;
+}
+
+/* Features, Cards, Grids */
+.features-row,
+.features-grid {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.feature-card {
+    background: #2c3644;
+    padding: 24px 18px;
+    border-radius: 10px;
+    flex: 1 1 180px;
+    min-width: 180px;
+    box-shadow: 0 2px 16px #0002;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.features-grid .feature-card {
+    font-size: 0.97rem;
+    padding: 14px 8px;
+}
+
+/* Demo video */
+.demo-video .video-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.demo-video iframe {
+    border-radius: 10px;
+    box-shadow: 0 2px 18px #0004;
+    margin-top: 10px;
+}
+
+/* Pricing */
+.pricing {
+    background: #283141;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #0002;
+    margin: 38px 0;
+    padding: 36px 18px 32px 18px;
+}
+
+.free-tier,
+.pro-tiers,
+.pro-features,
+.special-pricing {
+    margin-bottom: 28px;
+}
+
+.free-tier {
+    text-align: center;
+    background: #232b3a;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px #0003;
+}
+
+.free-tier h3 {
+    color: #60d394;
+}
+
+.free-tier h4 {
+    color: #ffe48a;
+    font-size: 2.3rem;
+    margin: 7px 0 12px 0;
+}
+
+.free-tier ul {
+    list-style: none;
+    color: #b1bad4;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.free-tier ul li {
+    padding: 2px 0;
+}
+
+.pro-tiers {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+
+.pro-tiers .tier {
+    background: #2e3a4f;
+    padding: 18px 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px #0002;
+    text-align: center;
+    flex: 1 1 180px;
+}
+
+.pro-tiers .tier h4 {
+    margin-bottom: 9px;
+    color: #ffe48a;
+    font-size: 1.18rem;
+}
+
+.pro-tiers .tier p {
+    font-size: 1.35rem;
+    margin-bottom: 10px;
+}
+
+.pro-features ul {
+    color: #b7bed3;
+    list-style: inside disc;
+    margin-left: 16px;
+}
+
+.special-pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.special-pricing .student,
+.special-pricing .teams {
+    background: #2c3644;
+    border-radius: 7px;
+    padding: 12px 18px;
+    color: #fff5;
+    font-size: 0.93rem;
+    flex: 1 1 160px;
+}
+
+/* Roadmap */
+.roadmap {
+    margin-top: 30px;
+}
+
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.roadmap-item {
+    background: #2c3644;
+    color: #ffe48a;
+    padding: 18px 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Footer */
+.footer {
+    background: #212a33;
+    color: #768194;
+    text-align: center;
+    padding: 30px 0 15px 0;
+    font-size: 0.95rem;
+    margin-top: 35px;
+    border-top: 1px solid #283141;
+}
+
+.footer nav a {
+    color: #8fa8c5;
+    margin: 0 10px;
+}
+
+.footer nav a:hover {
+    color: #ffe48a;
+}

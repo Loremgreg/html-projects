@@ -1,0 +1,43 @@
+body {
+    background-color: #eed5ba;
+    font-family: "Inter", "Segoe UI";
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.navbar {
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 16px;
+    margin-left: 24px;
+    align-items: center;
+
+    /* espace par rapport au menu si besoin */
+}
